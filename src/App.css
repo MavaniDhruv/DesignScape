@@ -70,3 +70,10 @@
   color: white;
   font-weight: 400;
 }
+
+/* header end and home1 start */
+
+.home1-main{
+  height: 1000px;
+  background-color: aqua;
+}
