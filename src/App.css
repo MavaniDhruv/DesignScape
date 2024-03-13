@@ -71,9 +71,139 @@
   font-weight: 400;
 }
 
-/* header end and home1 start */
 
 .home1-main{
   height: 1000px;
   background-color: aqua;
 }
+
+
+/* Main_Slider */
+
+.main_slider{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.main_slider_video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_slider_img{
+  width: 100%;
+  height: 100%;
+  /* background-size: cover;   */
+  /* object-fit: cover; */
+}
+
+.slider1_line1{
+  position: absolute;
+  top: 0;
+  width: 40%;
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: white;
+  line-height: 11vh;
+  margin-top: 18vh;
+  margin-left: 8vw;
+}
+
+.slider1_line2{
+  position: absolute;
+  top: 0;
+  width: 40%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  line-height: 5vh;
+  margin-top: 45vh;
+  margin-left: 8vw;
+}
+
+.slider_btn1_bg{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 40%;
+  background-color: #df2a40;
+  z-index: 1000;
+}
+
+.slider_btn1{
+  font-size: 50px;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.slider2_line1{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: white;
+  line-height: 11vh;
+  margin-top: 32vh;
+}
+
+.slider2_line2{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  line-height: 11vh;
+  margin-top: 43vh;
+}
+
+.swiper-pagination-bullet{
+  padding: 9px 20px;
+  border-radius: 50px !important;
+  transition: all ease-in-out 0.4s;
+} 
+
+.swiper-pagination-bullet-active{
+  padding: 9px 40px;
+  background-color: white !important;
+}
+
+.swiper-button-prev{
+  border: solid 2px white;
+  padding: 55px 35px;
+  color: white !important;
+  border-radius: 50px;
+  transition: all ease-in-out 0.2s;
+  margin-top: -50px !important;
+  /* display: none !important; */
+}
+
+.swiper-button-prev:hover{
+  background-color: rgba(0, 0, 0, 0.432);
+  color: rgb(152, 152, 152) !important;
+}
+
+.swiper-button-next{
+  border: solid 2px white;
+  padding: 55px 35px;
+  color: white !important;
+  border-radius: 50px;
+  transition: all ease-in-out 0.2s;
+  margin-top: -50px !important;
+  /* display: none !important; */
+}
+
+.swiper-button-next:hover{
+  background-color: rgba(0, 0, 0, 0.432);
+  color: rgb(152, 152, 152) !important;
+}
+
+/* .main_slider:hover .swiper-button-next{
+  display: block !important;
+  cursor: pointer;
+} */
