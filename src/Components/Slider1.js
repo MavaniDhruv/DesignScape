@@ -3,7 +3,7 @@ import React from 'react'
 // import Slider from "react-slick";
 // import "../../node_modules/slick-carousel/slick/slick.css";
 // import "../../node_modules/slick-carousel/slick/slick-theme.css";
-
+ 
 import slider_first from "../Video/Slider_first.webm";
 import slider_img from "../Image/Slider_home_bg.jpg"
 import { Image, Row, Col } from 'react-bootstrap';
@@ -46,8 +46,8 @@ function Slider1() {
                 }}
                 modules={[EffectFade, Navigation, Pagination]}
                 className="mySwiper"
-            >
-                <SwiperSlide>
+            > 
+                <SwiperSlide> 
                     <div className='main_slider'>
                         <video className='main_slider_video' src={slider_first} autoPlay loop muted ></video>
                         <div className="slider1_line1">The All-in-one 3D Design Platform</div>
